@@ -7,4 +7,5 @@
 //
 
 import Foundation
-var data = ["To do Aug. 3rd","Monday Dry cleaning","Add another item..."]
+var data = ["To do Aug. 3rd","Monday Dry cleaning"]
+var jobs: [Job] = []

@@ -11,16 +11,17 @@ import UIKit
 class EZUserTableViewController: UITableViewController {
 
     let categories = ["Lawncare","Housecare","Lifecare","Shopping","Other"]
-    let tiers = ["Tier 1","Tier 2","Tier 3"]
+    let tiers = ["Tier 1","Tier 2"]
+    
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #Return the number of sections
-        return 5
+        return categories.count
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #Return the number of rows
-        return 3
+        return tiers.count
     }
 
     
@@ -39,4 +40,6 @@ class EZUserTableViewController: UITableViewController {
         
         return cell
     }
+    
+    
 }

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		28A44BD11D52E40700DCAB4A /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A44BD01D52E40700DCAB4A /* ToDoListViewController.swift */; };
 		28A44BD31D52E97800DCAB4A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A44BD21D52E97800DCAB4A /* Data.swift */; };
+		28A44BD51D58167700DCAB4A /* JobsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A44BD41D58167700DCAB4A /* JobsTableViewCell.swift */; };
+		28A44BD71D58201700DCAB4A /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A44BD61D58201700DCAB4A /* Job.swift */; };
+		28A44BDB1D5821F300DCAB4A /* JobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A44BDA1D5821F300DCAB4A /* JobsViewController.swift */; };
 		28F9D6AB1D5000470020825D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9D6AA1D5000470020825D /* AppDelegate.swift */; };
 		28F9D6B01D5000470020825D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F9D6AE1D5000470020825D /* Main.storyboard */; };
 		28F9D6B21D5000470020825D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F9D6B11D5000470020825D /* Assets.xcassets */; };
@@ -19,6 +22,9 @@
 /* Begin PBXFileReference section */
 		28A44BD01D52E40700DCAB4A /* ToDoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
 		28A44BD21D52E97800DCAB4A /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		28A44BD41D58167700DCAB4A /* JobsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsTableViewCell.swift; sourceTree = "<group>"; };
+		28A44BD61D58201700DCAB4A /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		28A44BDA1D5821F300DCAB4A /* JobsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsViewController.swift; sourceTree = "<group>"; };
 		28F9D6A71D5000470020825D /* EZErrands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZErrands.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F9D6AA1D5000470020825D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28F9D6AF1D5000470020825D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 				28F9D6BE1D500A100020825D /* EZUserTableViewController.swift */,
 				28A44BD21D52E97800DCAB4A /* Data.swift */,
 				28A44BD01D52E40700DCAB4A /* ToDoListViewController.swift */,
+				28A44BD41D58167700DCAB4A /* JobsTableViewCell.swift */,
+				28A44BD61D58201700DCAB4A /* Job.swift */,
+				28A44BDA1D5821F300DCAB4A /* JobsViewController.swift */,
 			);
 			path = EZErrands;
 			sourceTree = "<group>";
@@ -143,8 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				28F9D6AB1D5000470020825D /* AppDelegate.swift in Sources */,
+				28A44BD71D58201700DCAB4A /* Job.swift in Sources */,
 				28A44BD11D52E40700DCAB4A /* ToDoListViewController.swift in Sources */,
+				28A44BD51D58167700DCAB4A /* JobsTableViewCell.swift in Sources */,
 				28F9D6BF1D500A100020825D /* EZUserTableViewController.swift in Sources */,
+				28A44BDB1D5821F300DCAB4A /* JobsViewController.swift in Sources */,
 				28A44BD31D52E97800DCAB4A /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
